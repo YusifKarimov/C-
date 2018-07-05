@@ -15,7 +15,7 @@ namespace Rextester
         string name;
         public static void Main(string[] args)
         {
-            //Console.WriteLine("cem:{0}" ) ;
+            
          Program test=new Program("yusif");  
          Program test1 = new Program(test);
             test1.show();
