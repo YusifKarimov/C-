@@ -9,6 +9,14 @@ namespace operatorOverloading
 {
     class Program
     {
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
         double  a;
         public Program(double a =0)
         {
